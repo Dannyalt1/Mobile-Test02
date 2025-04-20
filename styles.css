@@ -155,7 +155,7 @@ body {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: transparent;
     color: pink;
     text-align: center;
     opacity: 0;
@@ -183,20 +183,7 @@ body {
   .project-link:hover {
     background-color: #005bb5;
   }
-  
-  .section-title-gif, .spongebob-gif {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 15%;
-    width: 70px;
-  }
-  
-  section:hover .section-title-gif,
-  #projects:hover .spongebob-gif {
-    display: block;
-  }
-  
+     
   @media (max-width: 768px) {
     #profile {
       flex-direction: column;
@@ -229,4 +216,3 @@ body {
       display: none !important;
     }
   }
-  
